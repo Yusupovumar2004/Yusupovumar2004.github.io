@@ -3,8 +3,7 @@ const screens = document.querySelectorAll('.screen')
 const timeLIst = document.querySelector('#time-list')
 const timeEl = document.querySelector('#time')
 const board = document.querySelector('#board')
-const colors = 
-['#8fd3f4 ', '#68e0cf ', ' #229efd ', '#2be271', '#8bd612'];
+const colors = ['#8fd3f4 ', '#68e0cf ', ' #229efd ', '#2be271', '#8bd612'];
 let time = 0
 let score = 0
 startBtn.addEventListener('click',(event) =>{
